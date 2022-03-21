@@ -7,7 +7,7 @@ public class connet_DB {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection("jdbc:mysql://localhost/qlchdl?" + "user=root");
 			System.out.println("Noi ket thanh cong");
-		} catch (Exception ex) { // xử lý ngoại lệ nếu có
+		} catch (Exception ex) { 
 			System.out.println("Noi ket khong thanh cong");
 			ex.printStackTrace();
 		}
